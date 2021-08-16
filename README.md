@@ -34,3 +34,15 @@ Executando o servidor
 node "NOME DO ARQUIVO" Exemplo: node app
 
 Instalação como devdependencies
+(São tecnologias ultilizadas apenas durante o desenvolvimento do projeto em especifico )
+npm install nodemon = D     (por exemplo)
+
+### iniciando tecnologias ou scripts utilizando atalhos
+No package.json
+
+"scripts": {
+    "morango"; "nodemon server.js"
+    }
+    
+   No prompt vc executa:
+   npm run morango
